@@ -28,6 +28,7 @@ gem 'jbuilder', '2.5.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
 group :production do
   gem 'pg', '0.18.4'
 end  
@@ -50,4 +51,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby "2.3.0"
+ruby '2.3.0'
