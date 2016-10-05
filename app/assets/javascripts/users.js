@@ -67,5 +67,6 @@ $(document).on('turbolinks:load', function(){
     //Submit form to our Rails app.
     theForm.get(0).submit();
   }
+$(".alert").delay(1000).fadeOut(4000);
 });
 
